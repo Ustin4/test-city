@@ -1,6 +1,6 @@
 import {Alert, Divider, List, ListItem, ListItemText} from "@mui/material";
 import {useNavigate, useParams} from "react-router-dom";
-import {City, Country} from "../App";
+import {City, Country} from "../../App";
 import {Fragment, useEffect, useState} from "react";
 import axios, {AxiosError} from "axios";
 import s from './list.module.css'
